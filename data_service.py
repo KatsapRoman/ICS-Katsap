@@ -84,7 +84,7 @@ def show_dovidnuk(dovidnuk):
             print( "код товару: {:4} назва товару: {:18} ".format(dovidnuk[0], dovidnuk[1] ))
 
 def show_pokazn(pokazn):
-   """виводить список товарів за заданої умови
+    """виводить список товарів за заданої умови
 
     Args:
         pokazn : сприсок товарів
@@ -95,7 +95,7 @@ def show_pokazn(pokazn):
     
     for pokazn in pokazn():
         if  pokazn_code_from  <= pokazn[0] <= pokazn_code_to:
-            print( "номер складу: {:4} код товару: {:10} залишок: {16} прибуток: {22} вибуток: {28}}".format(pokazn[0], pokazn[1], pokazn[2] ,pokazn[3] ,pokazn[4] ))
+            print("номер складу: {:4} код товару: {:10} залишок: {16} прибуток: {22} вибуток: {28}}").format(pokazn[0], pokazn[1], pokazn[2] ,pokazn[3] ,pokazn[4] )
 
 dovidnuk = get_dovidnuk()
 for o in dovidnuk:
