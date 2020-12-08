@@ -58,6 +58,6 @@ def create_zajavka_list():
     return zajavka_list
 
 
-z = create_zajavka_list()
-for i in z:
-    print(i)
+# z = create_zajavka_list()
+#for i in z:
+#    print(i)

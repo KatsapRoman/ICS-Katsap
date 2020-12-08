@@ -95,12 +95,5 @@ def show_pokazn(pokazn):
     
     for pokazn in pokazn():
         if  pokazn_code_from  <= pokazn[0] <= pokazn_code_to:
-            print("номер складу: {:4} код товару: {:10} залишок: {16} прибуток: {22} вибуток: {28}}").format(pokazn[0], pokazn[1], pokazn[2] ,pokazn[3] ,pokazn[4] )
+            print("номер складу: {:4} код товару: {:10} залишок: {16} прибуток: {22} вибуток: {28}}").format(pokazn[0], pokazn[1], pokazn[2] ,pokazn[3] ,pokazn[4])
 
-dovidnuk = get_dovidnuk()
-for o in dovidnuk:
-    print(o)
-
-pokazn = get_pokazn()
-for l in pokazn:
-    print(l)
